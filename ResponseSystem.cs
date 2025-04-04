@@ -33,7 +33,7 @@ namespace Prog6221_Part1
                 Console.Write(c);
                 Thread.Sleep(50); 
             }
-            Console.WriteLine(); // Move to the next line after the message
+            Console.WriteLine(); 
         }
 
         // Function to calculate similarity score between user input and predefined questions
