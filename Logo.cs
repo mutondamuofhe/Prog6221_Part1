@@ -26,9 +26,9 @@ namespace Prog6221_Part1
             image = new Bitmap(image, new Size(210, 200));
 
             // Loop through every pixel of the image to create an ASCII representation
-            for (int height = 0; height < image.Height; height++) // Outer loop for height (rows of pixels)
+            for (int height = 0; height < image.Height; height++) // Outer loop for height 
             {
-                for (int width = 0; width < image.Width; width++) // Inner loop for width (columns of pixels)
+                for (int width = 0; width < image.Width; width++) // Inner loop for width 
                 {
                     // Get the color of the pixel at the current width and height
                     Color pixelColor = image.GetPixel(width, height);
