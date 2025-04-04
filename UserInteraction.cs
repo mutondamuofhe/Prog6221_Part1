@@ -18,7 +18,7 @@ namespace Prog6221_Part1
             Console.WriteLine("║     I'm here to help you stay safe online!         ║");
             Console.WriteLine("╚════════════════════════════════════════════════════╝");
             
-           
+           //colour of the text
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Good day! I'm your Cybersecurity Awareness Assistant.");
             Console.Write("May I know your name to personalize our interaction? ");
